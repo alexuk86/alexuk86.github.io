@@ -10,8 +10,8 @@ permalink:        pretty
 title:            'CAT blog'
 tagline:          'Computed Tomography'
 description:      'Scribblings about my many hours spent tinkering with CT reconstruction algorithms.'
-url:              http://alexuk86.github.io/
-baseurl:          http://alexuk86.github.io/
+url:              https://alexuk86.github.io/
+baseurl:          https://alexuk86.github.io/
 
 author:
   name:           'Alex Beardmore'
