@@ -9,7 +9,7 @@ permalink:        pretty
 # Setup
 title:            'CAT blog'
 tagline:          'Computed Tomography'
-description:      'A scribbling about my many hours spent tinkering with CT reconstruction algorithms. Made by <a href="https://twitter.com/alexuk86" target="_blank">@alexuk86</a>.'
+description:      'Scribblings about my many hours spent tinkering with CT reconstruction algorithms. Made by <a href="https://twitter.com/alexuk86" target="_blank">@AlexUK86</a>.'
 url:              https://alexuk86.github.io/
 baseurl:          https://alexuk86.github.io/
 
