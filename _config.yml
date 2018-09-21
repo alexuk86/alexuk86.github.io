@@ -7,11 +7,11 @@ permalink:        pretty
 #relative_permalinks: false
 
 # Setup
-title:            'CAT blog'
+title:            'CAT blogs'
 tagline:          'Computed Tomography'
 description:      'Scribblings about my many hours spent tinkering with CT reconstruction algorithms.'
-url:              https://alexuk86.github.io/
-baseurl:          https://alexuk86.github.io/
+url:              https://catblo.gs/
+baseurl:          https://catblo.gs/
 
 author:
   name:           'Alex Beardmore'
