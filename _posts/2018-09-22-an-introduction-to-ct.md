@@ -14,7 +14,7 @@ So ... you want a 3D image of the inside of your 3D thing. Reasonable ... I gues
 Going back to the cat... If you take an X-ray of your cat you have an idea of opacity (how many X-rays are absorbed) of everything in your cat, at that particular angle. You can get way more information by taking X-rays from every angle around the cat.
 
 ### Geometry
-There are a few ways to take your X-ray images for CT:
+As the saying goes: There is more than one way to skin a CAT scan. Likewise there are a few ways to take your X-ray images for CT:
 + Parallel beams
 + Fan beams
     + Axial progression
@@ -30,12 +30,4 @@ It is handy to organise the information in this way because in fan and parallel 
 
 ### Back-projection
 
-Back to the cat. If you took your X-ray through your cat you'd know how radio-opaque it is at that angle. By taking X-ray images from all around the cat you'd have way more information to work with. This is how a CT is taken.
 
-For reference, when you look at the cross sectional images of a CT scan they are axial images. This is where the name Computed Axial Tomography comes from... I like that term because it spells CAT.
-
-There are some interesting bit about taking the images, but generally the magic is in the way you take all those 2D image from around the subject and make them into a crisp 3D image of the inside bits. This process is called "reconstruction".
-
-## CT Reconstruction
-
-As the phrase goes, there is more than one way to skin a CAT scan.
