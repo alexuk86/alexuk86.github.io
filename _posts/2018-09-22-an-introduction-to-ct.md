@@ -29,5 +29,26 @@ The sinogram (or radon transform) is the way we organise the information which r
 It is handy to organise the information in this way because in fan and parallel beam geometries each sinogram contains all the information for a single slice. If you have 50 slices, you have 50 sinograms. They're very easy to process into this form too.
 
 ### Back-projection
+A sinogram is made up of *projections* through your subject. Back-projection is where you take your 1D images from your sinogram and kind of smear it back into a 2D image at the angle it was originally taken at:
 
+Rinse and repeat for every angle, every row of your sinogram.
+
+Keep stacking the back-projections on top of each-other and this is what you get:
+
+It's worth noting that this is a computationally intensive process. Effectively applying a rotation to an image for every angle. For high resolution images you might have 2000+ projections for every slice.
+
+So, being a bit critical, you can see this isn't exactly the sharp and sexy slice through our 3D object that we started with. To get _nice_ images you have to do a little more work.
+
+### Filtered Back-projection
+That extra bit of work is simply applying a special filter to the sinogram before back-projection. A few of the commonest ones are:
+
++ Ramp filter
++ Shepp-Logan
++ Cosine
++ Hamming
++ Hann
+
+These are applied in the frequency space by first applying a fourier transform, applying the filter, then returning the image to the spacial realm. There are libraries that do this very fast and very accurately.
+
+And this is the result:
 
