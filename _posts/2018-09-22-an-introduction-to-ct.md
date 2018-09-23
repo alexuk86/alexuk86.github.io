@@ -11,4 +11,22 @@ So ... you want a 3D image of the inside of your 3D thing. Reasonable ... I gues
 + So ... Computed Tomography
 
 ## Computed Tomography
+Going back to the cat... If you take an X-ray of your cat you have an idea of opacity (how many X-rays are absorbed) of everything in your cat, at that particular angle. You can get way more information by taking X-rays from every angle around the cat.
+
+### Geometry
+There are a few ways to take your X-ray images for CT:
++ Parallel beams
++ Fan beams
+    + Axial progression
+    + Helical / Spiral progression
++ Cone beam
+
+Here we are only talking about the arrangement of the X-ray beams as they pass through the object. The reason why will be come clearer later. One thing to note is that in that list the geometries are ordered from hardest to easiest to acquire the images, but conversely, easiest to hardest to reconstruct into the 3D images.
+
+### Sinogram
+The sinogram (or radon transform) is the way we organise the information which relates to one slice of our 3D image. It is simply a stack of the 1D images through our interesting slice. Each new row of the sinogram is a 1D image at a different angle through the subject.
+
+It is handy to organise the information in this way because in fan and parallel beam geometries each sinogram contains all the information for a single slice. If you have 50 slices, you have 50 sinograms. They're very easy to process into this form too.
+
+### Back-projection
 
