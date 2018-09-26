@@ -29,3 +29,9 @@ paginate:         5
 #my changes
 
 excerpt_separator: <!--more-->  
+
+
+# Use the following plug-ins
+gems:
+    - jekyll-sitemap
+    - jekyll-feed
