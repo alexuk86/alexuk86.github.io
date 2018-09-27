@@ -64,8 +64,8 @@ And this is the result:
 ![Phantom][Phantom]
 
 
-[sinogram]: /_images/intro_sinogram.png "Sinogram"
-[unfilteredBP]: /_images/intro_unfiltered_BP.png "Back-projection"
-[SL-filtered-sinogram]: /_images/intro_SL_filtered_sinogram.png "Shepp-Logan filtered Sinogram"
-[FBP]: /_images/intro_FBP.png "Filtered Back-projection reconstruction"
-[Phantom]: /_images/intro_phantom.png "Original mathematical phantom"
+[sinogram]: https://catblo.gs/_images/intro_sinogram.png "Sinogram"
+[unfilteredBP]: https://catblo.gs/_images/intro_unfiltered_BP.png "Back-projection"
+[SL-filtered-sinogram]: https://catblo.gs/_images/intro_SL_filtered_sinogram.png "Shepp-Logan filtered Sinogram"
+[FBP]: https://catblo.gs/_images/intro_FBP.png "Filtered Back-projection reconstruction"
+[Phantom]: https://catblo.gs/_images/intro_phantom.png "Original mathematical phantom"
