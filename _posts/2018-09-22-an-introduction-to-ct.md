@@ -26,6 +26,8 @@ Here we are only talking about the arrangement of the X-ray beams as they pass t
 ### Sinogram
 The sinogram (or radon transform) is the way we organise the information which relates to one slice of our 3D image. It is simply a stack of the 1D images through our interesting slice. Each new row of the sinogram is a 1D image at a different angle through the subject.
 
+![A sinogram][sinogram]
+
 It is handy to organise the information in this way because in fan and parallel beam geometries each sinogram contains all the information for a single slice. If you have 50 slices, you have 50 sinograms. They're very easy to process into this form too.
 
 ### Back-projection
@@ -34,6 +36,8 @@ A sinogram is made up of *projections* through your subject. Back-projection is 
 Rinse and repeat for every angle, every row of your sinogram.
 
 Keep stacking the back-projections on top of each-other and this is what you get:
+
+![Back-projection][unfilteredBP]
 
 It's worth noting that this is a computationally intensive process. Effectively applying a rotation to an image for every angle. For high resolution images you might have 2000+ projections for every slice.
 
@@ -48,7 +52,20 @@ That extra bit of work is simply applying a special filter to the sinogram befor
 + Hamming
 + Hann
 
+This sinogram has the Shepp-Logan filter applied:
+
+![Shepp-Logan][SL-filtered-sinogram]
+
 These are applied in the frequency space by first applying a fourier transform, applying the filter, then returning the image to the spacial realm. There are libraries that do this very fast and very accurately.
 
 And this is the result:
 
+![Filtered Back-projection][FBP]
+![Phantom][Phantom]
+
+
+[sinogram]: /_images/intro_sinogram.png "Sinogram"
+[unfilteredBP]: /_images/intro_unfiltered_BP.png "Back-projection"
+[SL-filtered-sinogram]: /_images/intro_SL_filtered_sinogram.png "Shepp-Logan filtered Sinogram"
+[FBP]: /_images/intro_FBP.png "Filtered Back-projection reconstruction"
+[Phantom]: /_images/intro_phantom.png "Original mathematical phantom"
