@@ -61,8 +61,12 @@ These are applied in the frequency space by first applying a fourier transform, 
 And this is the result:
 
 ![Filtered Back-projection][FBP]
+
+Compared to the original mathematical phantom:
+
 ![Phantom][Phantom]
 
+Note: All these images are false coloured.
 
 [sinogram]: https://catblo.gs/images/intro_sinogram.png "Sinogram"
 [unfilteredBP]: https://catblo.gs/images/intro_unfiltered_BP.png "Back-projection"
