@@ -56,7 +56,7 @@ This sinogram has the Shepp-Logan filter applied:
 
 ![Shepp-Logan][SL-filtered-sinogram]
 
-These are applied in the frequency space by first applying a fourier transform, applying the filter, then returning the image to the spacial realm. There are libraries that do this very fast and very accurately.
+These are applied in the frequency space by first applying a Fourier transform, applying the filter, then returning the image to the spacial realm. There are libraries that do this very fast and very accurately.
 
 And this is the result:
 
