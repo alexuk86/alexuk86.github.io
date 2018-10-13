@@ -10,12 +10,12 @@ I'm Alex. I've started writing this blog for myself. I want to document my work 
 Professionally I'm a Theraputic Radiographer. I live and work in Kent, UK but I'm originally ~~a wildling~~ a Northerner. I'm also gay and I love cats (not relevant). You might wonder about why a Theraputic Radiographer is so interested in CT and CT reconstruction ... it's part of the job. Radiotherapy is more than just treating the patients, we take images for nearly every fraction of treatment, including many many cone beam CTs. Mostly these are to assess a patient's position. Over time this is something I've developed a passion for, both for dose reduction and for improving image quality.
 
 ### Education
-I went to school. Picked up some GCSE's (2002) and A-Levels (2004), they're mostly irrelevant now. I've also picked up some University education:
+I went to school. Gained up some GCSE's (2002) and A-Levels (2004), they're mostly irrelevant now. I've also picked up some University education:
 - University of Liverpool. Radiotherapy and Oncology BSc (Hons) (2007)
 - Sheffield Hallam University. Advanced Practice (Radiotherapy) MSc (2016)
 
 ### Projects
-Through my Masters I've picked up a couple CT and CT-based projects:
+Through my Masters I started up a couple CT and CT-based projects:
 - Intra-fraction motion analysis of fiducial markers using stereoscopic VMAT imaging
 - Developing an iterative VMAT-CT algorithm and comparing it to filtered back-projection VMAT-CT
 
