@@ -10,7 +10,7 @@ One of the down sides of iterative reconstruction is that it can take a great ma
 
 For a practical example, this image was produced in 50 iterations starting from a FBP reconstruction. It is broadly of a similar image quality to the second image which is after 220 iterations starting from a blank slate. Priori information using complimentary reconstruction techniques can help to generate a faster reconstruction which displays the best of both techniques.
 
-![50th Priori Iteration][priori50th] ![220th Iteration from scratch][200th]
+![50th Priori Iteration][priori50th] ![220th Iteration from scratch][220th]
 
 For reference, here is the original mathematical phantom and the starting FBP image:
 
